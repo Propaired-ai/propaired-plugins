@@ -1,7 +1,8 @@
 # Propaired for your AI assistant
 
 Propaired is a real estate platform for agents in Utah. This plugin connects your assistant — Claude,
-ChatGPT or Codex — to **your own** Propaired workspace, and teaches it how you run your business.
+ChatGPT, Codex or Grok — to **your own** Propaired workspace, and teaches it how you run your
+business.
 
 Once it is installed, you can ask your assistant to plan your day, brief you before a listing
 appointment or a buyer consult, write up what happened on a call, keep notes on a lead, pull market
@@ -39,8 +40,21 @@ stops; you review and publish.
 
 ## Installing
 
-Step-by-step instructions for Claude, ChatGPT, Codex and Claude Code, including the one-line install
-command for your assistant, are on the setup page: https://www.propaired.ai/realtors/ai-agents
+In Claude:
+
+```
+/plugin install propaired --marketplace Propaired-ai/propaired-plugins
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```
+/plugin marketplace add Propaired-ai/propaired-plugins
+/plugin install propaired@propaired
+```
+
+Step-by-step instructions for ChatGPT, Codex and Grok are on the setup page:
+https://www.propaired.ai/realtors/ai-agents
 
 ## Links
 
