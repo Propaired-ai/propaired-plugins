@@ -1,0 +1,14 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-utahrealestate-mls",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=advisory",
+  "allowed_tools": [
+    "getMyContext",
+    "getParcelFacts",
+    "getListingDetail",
+    "getMlsMemberProfilePackage",
+    "getMlsListingPackage",
+    "markMlsDraftFilled"
+  ]
+}

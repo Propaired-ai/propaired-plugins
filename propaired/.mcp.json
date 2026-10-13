@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "propaired-advisory": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=advisory",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    },
+    "propaired-content-studio": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=content_studio",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    },
+    "propaired-deal-desk": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=deal_desk",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    },
+    "propaired": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=front_office",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    },
+    "propaired-social-studio": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=social_studio",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    },
+    "propaired-web-presence": {
+      "type": "http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=web_presence",
+      "oauth": {
+        "callbackPort": 6274
+      }
+    }
+  }
+}

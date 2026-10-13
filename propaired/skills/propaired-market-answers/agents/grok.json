@@ -1,0 +1,24 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-market-answers",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=advisory",
+  "allowed_tools": [
+    "getMyContext",
+    "queryMarketData",
+    "queryNeighborhoodMarket",
+    "queryRentalIntelligence",
+    "searchProperties",
+    "searchForClient",
+    "getListingDetail",
+    "getParcelFacts",
+    "appraiseProperty",
+    "lookupPlaceKnowledge",
+    "queryKnowledgeGraph",
+    "findGoodSchoolsNearby",
+    "queryNearestAmenity",
+    "searchNearPlace",
+    "webLookup",
+    "askGenie"
+  ]
+}

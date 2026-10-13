@@ -1,0 +1,25 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-deal-desk",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=deal_desk",
+  "allowed_tools": [
+    "getMyContext",
+    "resolveClientReference",
+    "searchClients",
+    "getClientOverview",
+    "getTransactionDetail",
+    "getTransactionMessages",
+    "getListingDetail",
+    "listTransactionMlsAlerts",
+    "addTransactionMlsAlert",
+    "deactivateTransactionMlsAlert",
+    "addTransactionParty",
+    "addTransactionCustomStep",
+    "proposeOffer",
+    "acceptOfferRequest",
+    "updateDealStatus",
+    "sendTransactionMessage",
+    "resumeCapability"
+  ]
+}

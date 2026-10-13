@@ -1,0 +1,15 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-daily-brief",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=front_office",
+  "allowed_tools": [
+    "getMyContext",
+    "getMyDay",
+    "getClientPipeline",
+    "getLeadStats",
+    "findRecentActivity",
+    "addTask",
+    "completeTask"
+  ]
+}

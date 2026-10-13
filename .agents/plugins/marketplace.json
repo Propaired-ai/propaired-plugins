@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/marketplace.schema.json",
+  "name": "propaired",
+  "owner": {
+    "name": "Propaired",
+    "url": "https://www.propaired.ai"
+  },
+  "metadata": {
+    "description": "Propaired plugins for real estate professionals.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "propaired",
+      "source": "./propaired",
+      "description": "Run your real estate business from your own AI assistant: your clients, leads, listings, day plan and market data, with every message and post waiting for your approval.",
+      "keywords": [
+        "real-estate",
+        "realtor",
+        "crm",
+        "mls",
+        "listings"
+      ]
+    }
+  ]
+}

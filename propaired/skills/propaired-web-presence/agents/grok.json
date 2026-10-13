@@ -1,0 +1,19 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-web-presence",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=web_presence",
+  "allowed_tools": [
+    "getMyContext",
+    "getRealtorLaunchState",
+    "getMarketingContentContext",
+    "getRealtorBusinessSummary",
+    "draftRealtorProfilePage",
+    "reviseRealtorProfilePage",
+    "draftMarketingSite",
+    "draftLeadFunnel",
+    "publishLeadMagnetFunnel",
+    "getMarketingArtifact",
+    "resumeCapability"
+  ]
+}

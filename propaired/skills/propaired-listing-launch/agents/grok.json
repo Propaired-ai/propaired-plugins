@@ -1,0 +1,18 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-listing-launch",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=social_studio",
+  "allowed_tools": [
+    "getMyContext",
+    "getListingDetail",
+    "getListingWorkspace",
+    "planListingContentPost",
+    "suggestListingAudienceSegment",
+    "getSocialQueueOverview",
+    "queueSocialPostPublishApproval",
+    "draftClientEmail",
+    "queueClientEmailSendApproval",
+    "addTransactionMlsAlert"
+  ]
+}

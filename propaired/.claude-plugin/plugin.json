@@ -1,0 +1,18 @@
+{
+  "name": "propaired",
+  "version": "0.1.0",
+  "description": "Run your real estate business from your own AI assistant: your clients, leads, listings, day plan and market data, with every message and post waiting for your approval.",
+  "author": {
+    "name": "Propaired",
+    "url": "https://www.propaired.ai"
+  },
+  "homepage": "https://www.propaired.ai/realtors/ai-agents",
+  "license": "LicenseRef-Propaired-Proprietary",
+  "keywords": [
+    "real-estate",
+    "realtor",
+    "crm",
+    "mls",
+    "listings"
+  ]
+}

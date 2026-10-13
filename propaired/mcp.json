@@ -1,0 +1,89 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "propaired-advisory": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=advisory",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    },
+    "propaired-content-studio": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=content_studio",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    },
+    "propaired-deal-desk": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=deal_desk",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    },
+    "propaired": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=front_office",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    },
+    "propaired-social-studio": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=social_studio",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    },
+    "propaired-web-presence": {
+      "type": "streamable-http",
+      "url": "https://www.propaired.ai/api/mcp?toolset=web_presence",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    }
+  }
+}

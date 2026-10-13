@@ -1,0 +1,17 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-lead-response",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=front_office",
+  "allowed_tools": [
+    "getMyContext",
+    "listLeads",
+    "getLeadStats",
+    "createLead",
+    "claimPooledLead",
+    "moveLeadStage",
+    "convertLeadToClient",
+    "draftClientEmail",
+    "queueClientEmailSendApproval"
+  ]
+}

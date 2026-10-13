@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "propaired",
+  "version": "0.1.0",
+  "description": "Run your real estate business from your own AI assistant: your clients, leads, listings, day plan and market data, with every message and post waiting for your approval.",
+  "author": {
+    "name": "Propaired",
+    "url": "https://www.propaired.ai"
+  },
+  "homepage": "https://www.propaired.ai/realtors/ai-agents",
+  "license": "LicenseRef-Propaired-Proprietary",
+  "keywords": [
+    "real-estate",
+    "realtor",
+    "crm",
+    "mls",
+    "listings"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/propaired-governance/SKILL.md",
+      "interface": {
+        "displayName": "Propaired",
+        "shortDescription": "Run your real estate business from your own assistant.",
+        "longDescription": "Propaired connects your assistant to your own real estate workspace: today's plan, your clients and leads, your past sales and equity, listings and market data for your area, and your branded content. Your assistant can read anything you can see and draft anything you would write, but nothing reaches a client until you approve it in Propaired.",
+        "developerName": "Propaired",
+        "websiteURL": "https://www.propaired.ai",
+        "privacyPolicyURL": "https://www.propaired.ai/privacy",
+        "termsOfServiceURL": "https://www.propaired.ai/terms",
+        "defaultPrompt": "Plan my day in Propaired.",
+        "brandColor": "#11745A"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_generated": "scripts/generate-agent-playbooks.ts from ../SKILL.md. Do not edit.",
+  "type": "mcp",
+  "server_label": "propaired-meeting-prep",
+  "server_url": "https://www.propaired.ai/api/mcp?toolset=front_office",
+  "allowed_tools": [
+    "getMyContext",
+    "resolveClientReference",
+    "searchClients",
+    "getMyDay",
+    "getClient360Snapshot",
+    "getClientOverview",
+    "getClientJourneySummary",
+    "findRecentActivity",
+    "getViewingReport",
+    "getShowingSummary",
+    "getListingDetail",
+    "getParcelFacts",
+    "queryNeighborhoodMarket",
+    "queryMarketData",
+    "appraiseProperty",
+    "getPresentationAnalytics"
+  ]
+}
