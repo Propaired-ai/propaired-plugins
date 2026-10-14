@@ -45,8 +45,10 @@ posts ready on Monday, each from something real that happened in their business.
 
 Real events beat generic content every time:
 
-- `listMyListingEvents` — the realtor's own last seven days: coming soon, just listed, price change,
-  sold. This is the best source and should drive most of the week.
+- `listMyListingEvents` — the realtor's own last seven days: coming soon, just listed, sold. This is
+  the best source and should drive most of the week. It reports which kinds of event it cannot see:
+  a price change has no date in Propaired, so an empty week is **not** evidence their prices held,
+  and a listing that has just gone under contract shows up under its original list date.
 - `getMarketingContentContext` — their brand, voice, areas and positioning.
 - `getRealtorBusinessSummary` — milestones worth mentioning.
 - `researchMarketingTopic` — for a market or advice post, from governed sources only.
